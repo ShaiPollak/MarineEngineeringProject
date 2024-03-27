@@ -57,6 +57,9 @@ with Dataset(nc_file_path, "r") as netcdf_file:
     print("Shape of longitude_expanded_right:", longitude_expanded_right.shape)
     print("Shape of latitude_expanded_right:", latitude_expanded_right.shape)
 
+
+    print("Guy Haddad King")
+
     # Create DataFrames
     data_left = pd.DataFrame({
         'Latitude': latitude_expanded_left,
