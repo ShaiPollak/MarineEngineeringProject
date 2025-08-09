@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogReport>
+<messages>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:52:22.837822" stack="">Log level: INFO (20)</entry>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:52:22.839609" stack="">PGE Version: 5.0.2</entry>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:52:22.840362" stack="">SAS Version: 1.2.1</entry>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:52:22.840784" stack="">PGE arguments: [/pge/pkg-swot/swot/l2/l2_lr_ssh/l2_lr_ssh.py, /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_RunConfig_L2_LR_SSH_20240206T215118368291.xml]</entry>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:52:22.841306" stack="">Using run config file: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_RunConfig_L2_LR_SSH_20240206T215118368291.xml:
+{
+  configuration: {
+    granule: {
+      Pass: {
+        CycleID: 001,
+        PassID: 149
+      },
+      GranuleStartDateTime: 2023-07-26T12:27:56.717000Z,
+      GranuleEndDateTime: 2023-07-26T13:19:23.655000Z,
+      RangeBeginningDateTime: 2023-07-26T12:27:56.753567Z,
+      RangeEndingDateTime: 2023-07-26T13:19:23.625231Z
+    },
+    input: [
+      {
+        file: [
+          {
+            path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+            s3: s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01,
+            text: SWOT_L2_LR_PreCalSSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01.nc
+          },
+          {
+            path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+            s3: s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01,
+            text: SWOT_L2_LR_PreCalSSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01.nc
+          },
+          {
+            path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+            s3: s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01,
+            text: SWOT_L2_LR_PreCalSSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01.nc
+          },
+          {
+            path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+            s3: s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01,
+            text: SWOT_L2_LR_PreCalSSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01.nc
+          }
+        ],
+        shortName: L2_LR_PreCalSSH
+      },
+      {
+        file: {
+          path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+          s3: s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/INT_LR_XOverCal/2023/07/25/SWOT_INT_LR_XOverCal_20230725T233604_20230726T233656_PGC0_01,
+          text: SWOT_INT_LR_XOverCal_20230725T233604_20230726T233656_PGC0_01.nc
+        },
+        shortName: INT_LR_XOverCal
+      },
+      {
+        file: {
+          path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+          s3: s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/Granule_Boundary,
+          text: SWOT_GranulePolygons_Nom_20230921T225100_v06.json
+        },
+        shortName: GranulePolygons
+      },
+      {
+        file: {
+          path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+          s3: s3://s3-us-west-2.amazonaws.com:80/swot-ops-lts-sci/ancillary/XDF_ORBIT_REV_FILE/2023/07/20/SWOT_ORF_AXXCNE20231122_103800_20230720_200750_20231207_080254,
+          text: SWOT_ORF_AXXCNE20231122_103800_20230720_200750_20231207_080254
+        },
+        shortName: XDF_ORBIT_REV_FILE
+      },
+      {
+        file: {
+          path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+          s3: s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression,
+          text: SWOT_NC_Compression_L2_LR_SSH_Basic_20210728T100000_v004.yaml
+        },
+        shortName: NC_Compression_L2_LR_SSH_Basic
+      },
+      {
+        file: {
+          path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+          s3: s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression,
+          text: SWOT_NC_Compression_L2_LR_SSH_WindWave_20210728T100000_v004.yaml
+        },
+        shortName: NC_Compression_L2_LR_SSH_WindWave
+      },
+      {
+        file: {
+          path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+          s3: s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression,
+          text: SWOT_NC_Compression_L2_LR_SSH_Expert_20210728T100000_v004.yaml
+        },
+        shortName: NC_Compression_L2_LR_SSH_Expert
+      },
+      {
+        file: {
+          path: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z,
+          s3: s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression,
+          text: SWOT_NC_Compression_L2_LR_SSH_Unsmoothed_20210728T100000_v004.yaml
+        },
+        shortName: NC_Compression_L2_LR_SSH_Unsmoothed
+      }
+    ],
+    {http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation: RunConfig_L2_LR_SSH.xsd,
+    version: 1.0.0,
+    log: file,
+    log_level: info,
+    shortName: L2_LR_SSH_RCM,
+    pgeShortName: PGE_L2_LR_SSH,
+    pgeDockerImageName: pge/l2_lr_ssh,
+    pgeDockerImageVersion: 5.0.2,
+    ProductCounter: 01,
+    CRID: PGC0,
+    output_dir: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh,
+    working_dir: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/pge_work_dir,
+    ProductionDateTime: 2024-02-06T21:51:04.345954Z,
+    ProcessingThreads: 0,
+    Producer: JPL
+  }
+}
+</entry>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:52:23.196592" stack="">System Information:
+{
+  hostname: dig: symbol lookup error: /lib64/libk5crypto.so.3: undefined symbol: EVP_KDF_ctrl, version OPENSSL_1_1_1b,
+  ip: 10.0.5.188,
+  ami_id: ami-056b7d1a3a942619a,
+  instance_type: t3.large,
+  instance_id: i-076101557419d6674,
+  availability_zone: us-west-2a,
+  memory: 8G,
+  cpu_model: Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz,
+  vcpu: 2,
+  local_storage: [
+    Filesystem      Size  Used Avail Use% Mounted on,
+    overlay         160G   21G  140G  13% /,
+    tmpfs            64M     0   64M   0% /dev,
+    tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup,
+    shm              64M   20K   64M   1% /dev/shm,
+    /dev/nvme0n1p1   50G   33G   18G  65% /usr/sbin/docker-init,
+    /dev/nvme1n1    160G   21G  140G  13% /etc/hosts,
+    tmpfs           3.8G  8.9M  3.8G   1% /run/docker.sock,
+    tmpfs           3.8G     0  3.8G   0% /proc/acpi,
+    tmpfs           3.8G     0  3.8G   0% /proc/scsi,
+    tmpfs           3.8G     0  3.8G   0% /sys/firmware
+  ],
+  kernel: 4.18.0-477.21.1.el8_8.x86_64,
+  release: [
+    Oracle Linux Server release 8.8,
+    NAME=\Oracle Linux Server\,
+    VERSION=\8.8\,
+    ID=\ol\,
+    ID_LIKE=\fedora\,
+    VARIANT=\Server\,
+    VARIANT_ID=\server\,
+    VERSION_ID=\8.8\,
+    PLATFORM_ID=\platform:el8\,
+    PRETTY_NAME=\Oracle Linux Server 8.8\,
+    ANSI_COLOR=\0;31\,
+    CPE_NAME=\cpe:/o:oracle:linux:8:8:server\,
+    HOME_URL=\https://linux.oracle.com/\,
+    BUG_REPORT_URL=\https://github.com/oracle/oracle-linux\,
+    ,
+    ORACLE_BUGZILLA_PRODUCT=\Oracle Linux 8\,
+    ORACLE_BUGZILLA_PRODUCT_VERSION=8.8,
+    ORACLE_SUPPORT_PRODUCT=\Oracle Linux\,
+    ORACLE_SUPPORT_PRODUCT_VERSION=8.8,
+    Red Hat Enterprise Linux release 8.8 (Ootpa),
+    Oracle Linux Server release 8.8
+  ]
+}
+</entry>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:52:23.197649" stack="">GECO version: 2_0_1</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:23.204592" stack="">XML file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_RunConfig_L2_LR_SSH_20240206T215118368291.xml successfully validated against schema: /pge/pkg-swot/swot/schemas/RunConfig_L2_LR_SSH.xsd</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:23.209142" stack="">Input INT_LR_XOverCal: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_INT_LR_XOverCal_20230725T233604_20230726T233656_PGC0_01.nc (1407921 bytes, MD5: 1c43cd4dbdaa4f5536292d8aa64ac0c8)</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:23.210440" stack="">Input NC_Compression_L2_LR_SSH_Basic: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_NC_Compression_L2_LR_SSH_Basic_20210728T100000_v004.yaml (55 bytes, MD5: 73021664bec3a7ddbf0ac9cd924cd08a)</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:23.210786" stack="">Input NC_Compression_L2_LR_SSH_WindWave: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_NC_Compression_L2_LR_SSH_WindWave_20210728T100000_v004.yaml (55 bytes, MD5: 73021664bec3a7ddbf0ac9cd924cd08a)</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:23.211068" stack="">Input NC_Compression_L2_LR_SSH_Expert: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_NC_Compression_L2_LR_SSH_Expert_20210728T100000_v004.yaml (55 bytes, MD5: 73021664bec3a7ddbf0ac9cd924cd08a)</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:23.212042" stack="">Input NC_Compression_L2_LR_SSH_Unsmoothed: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_NC_Compression_L2_LR_SSH_Unsmoothed_20210728T100000_v004.yaml (55 bytes, MD5: 73021664bec3a7ddbf0ac9cd924cd08a)</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:23.212144" stack="">Param_L2_LR_SSH is not found in runconfig will pass in empty string.</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:23.237886" stack="">Input L2_LR_PreCalSSH: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01.nc (9724575 bytes, MD5: ff2dd512456b201cafb9c1f978f70df5)</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:23.310587" stack="">Input L2_LR_PreCalSSH: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01.nc (33658054 bytes, MD5: 2bc58c287534482e5a7f9e049f8a0f0a)</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:24.735604" stack="">Input L2_LR_PreCalSSH: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01.nc (721358918 bytes, MD5: ddcad4e6b9f41c7972f4de5ac6a173ca)</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:52:24.768616" stack="">Input L2_LR_PreCalSSH: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01.nc (13259097 bytes, MD5: dd147dc3008e272803e591420a0202ed)</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:24.772371" stack="">Input files after sorting: [
+  /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01.nc,
+  /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01.nc,
+  /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01.nc,
+  /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_L2_LR_PreCalSSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01.nc
+]</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:24.808233" stack="">Loading L2 Basic LR data product</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:25.148592" stack="">Loading L2 WindWave LR data product</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:25.555843" stack="">Loading L2 Expert LR data product</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:28.482487" stack="">Loading L2 Unsmoothed LR data product</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:52:46.154426" stack="">Instantiating l2bcal_lr SAS</entry>
+<entry level="INFO" src="swot.sas.l2bcal_lr" date="2024-02-06T21:52:46.318453" stack="">load</entry>
+<entry level="INFO" src="swot.sas.l2bcal_lr" date="2024-02-06T21:52:46.718243" stack="">process</entry>
+<entry level="INFO" src="swot.sas.l2bcal_lr" date="2024-02-06T21:52:49.446917" stack="">emit</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:12.750172" stack="">TEST FAILURE in test_in_valid_range: /left/ssh_karin_uncert failed; 61480 0 60000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:12.837693" stack="">TEST FAILURE in test_in_valid_range: /left/sig0_karin_2 failed; -1361.984863 -1000.000000 10000000.000000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:13.840222" stack="">TEST FAILURE in test_in_valid_range: /left/sig0_karin_uncert failed; 2283673348592780409439686759924367360.000000 0.000000 1000.000000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:13.159192" stack="">TEST FAILURE in test_in_valid_range: /left/total_coherence failed; 10049 0 10000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:13.795375" stack="">TEST FAILURE in test_in_valid_range: /right/longitude_uncert failed; 53249 0 20000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.418939" stack="">TEST FAILURE in test_in_valid_range: /right/ssh_karin_uncert failed; 62094 0 60000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.144425" stack="">TEST FAILURE in test_in_valid_range: /right/sig0_karin_2 failed; -1840.636597 -1000.000000 10000000.000000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.320435" stack="">TEST FAILURE in test_in_valid_range: /right/sig0_karin_uncert failed; 117253629981302677874185576562819072.000000 0.000000 1000.000000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.380887" stack="">TEST FAILURE in test_in_valid_range: /right/total_coherence failed; 10016 0 10000</entry>
+<entry level="WARNING" src="L2_LR_SSH" date="2024-02-06T21:53:14.849110" stack="">Validation of output L2_LR_SSH_Unsmoothed product failed!</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.942370" stack="">TEST FAILURE in test_in_valid_range: ssh_karin_uncert failed; 61815 0 60000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.964199" stack="">TEST FAILURE in test_in_valid_range: ssha_karin_2 failed; 19971244 -1000000 1000000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.982079" stack="">TEST FAILURE in test_in_valid_range: swh_karin failed; 43059 0 15000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:14.987321" stack="">TEST FAILURE in test_in_valid_range: swh_karin_uncert failed; 52601 0 25000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.194101" stack="">TEST FAILURE in test_in_valid_range: sig0_karin_uncert failed; 413872524095278287671504538697728.000000 0.000000 1000.000000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.495951" stack="">TEST FAILURE in test_in_valid_range: swh_model failed; 15960 0 15000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.538871" stack="">TEST FAILURE in test_in_valid_range: mean_wave_period_t02 failed; -31172 0 10000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.577766" stack="">TEST FAILURE in test_in_valid_range: wind_speed_rad failed; 65120 0 65000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.851233" stack="">TEST FAILURE in test_in_valid_range: sig0_cor_atmos_rad failed; 0.579918 1.000000 10.000000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.108625" stack="">TEST FAILURE in test_in_valid_range: rad_tmb_187 failed; 25005 13000 25000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.109021" stack="">TEST FAILURE in test_in_valid_range: rad_tmb_238 failed; 25043 13000 25000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.109286" stack="">TEST FAILURE in test_in_valid_range: rad_tmb_340 failed; 28111 15000 28000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.109490" stack="">TEST FAILURE in test_in_valid_range: rad_water_vapor failed; -100 0 15000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.114097" stack="">TEST FAILURE in test_in_valid_range: mean_sea_surface_cnescls_uncert failed; 10334 0 10000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.151499" stack="">TEST FAILURE in test_in_valid_range: inv_bar_cor failed; 4014 -2000 2000</entry>
+<entry level="WARNING" src="SWOTWater.products.product" date="2024-02-06T21:53:15.156117" stack="">TEST FAILURE in test_in_valid_range: rad_wet_tropo_cor failed; 4 -10000 0</entry>
+<entry level="WARNING" src="L2_LR_SSH" date="2024-02-06T21:53:15.182007" stack="">Validation of output L2_LR_SSH_Expert product failed!</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:54:07.563313" stack="">Input XDF_ORBIT_REV_FILE: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_ORF_AXXCNE20231122_103800_20230720_200750_20231207_080254 (424645 bytes, MD5: 5c511ac49efdf80c9a780f8db6b39c81)</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:07.876763" stack="">Copying /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_RunConfig_L2_LR_SSH_20240206T215118368291.xml to /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01.rc.xml</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:07.880017" stack="">Writing Catalog Metadata file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01.met.json</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:54:07.886832" stack="">Input GranulePolygons: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_GranulePolygons_Nom_20230921T225100_v06.json (1189583 bytes, MD5: 342e0fde55cda19a65cdb01786c3ab45)</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:07.891298" stack="">Writing ISO MENDS file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01.nc.iso.xml</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:13.108724" stack="">Copying /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_RunConfig_L2_LR_SSH_20240206T215118368291.xml to /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01.rc.xml</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:13.111114" stack="">Writing Catalog Metadata file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01.met.json</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:54:13.114436" stack="">Input GranulePolygons: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_GranulePolygons_Nom_20230921T225100_v06.json (1189583 bytes, MD5: 342e0fde55cda19a65cdb01786c3ab45)</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:13.118487" stack="">Writing ISO MENDS file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01.nc.iso.xml</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:14.855215" stack="">Copying /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_RunConfig_L2_LR_SSH_20240206T215118368291.xml to /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01.rc.xml</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:14.857056" stack="">Writing Catalog Metadata file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01.met.json</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:54:14.862465" stack="">Input GranulePolygons: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_GranulePolygons_Nom_20230921T225100_v06.json (1189583 bytes, MD5: 342e0fde55cda19a65cdb01786c3ab45)</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:14.866503" stack="">Writing ISO MENDS file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01.nc.iso.xml</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:16.816689" stack="">Copying /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_RunConfig_L2_LR_SSH_20240206T215118368291.xml to /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01.rc.xml</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:16.818449" stack="">Writing Catalog Metadata file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01.met.json</entry>
+<entry level="INFO" src="swot.util.base_pge_wrapper" date="2024-02-06T21:54:16.822232" stack="">Input GranulePolygons: /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/SWOT_GranulePolygons_Nom_20230921T225100_v06.json (1189583 bytes, MD5: 342e0fde55cda19a65cdb01786c3ab45)</entry>
+<entry level="INFO" src="L2_LR_SSH" date="2024-02-06T21:54:16.826425" stack="">Writing ISO MENDS file /data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh/SWOT_L2_LR_SSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01.nc.iso.xml</entry>
+<entry level="SIGMSG" src="L2_LR_SSH" date="2024-02-06T21:54:18.411294" stack="">PGE processing completed.</entry>
+</messages>
+<summary><error>0</error><sigmsg>8</sigmsg><warning>27</warning><info>37</info><debug>0</debug></summary>
+<metrics><algorithm_run_time>102.779 seconds</algorithm_run_time><total_run_time>178.000 seconds</total_run_time><sys_cpu>24.096 seconds</sys_cpu><user_cpu>83.199 seconds</user_cpu><peak_vm>6.7 G</peak_vm><max_rss>4.9 G</max_rss></metrics>
+</LogReport>

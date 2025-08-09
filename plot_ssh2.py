@@ -4,6 +4,8 @@ from netCDF4 import Dataset
 import branca.colormap as cm
 import matplotlib.pyplot as plt
 
+##################### THE CORRECT VERSION    18.4.24 ###################
+#####
 
 def process_ssh_chunk(ssh_data, lat_values, lon_values, map_obj):
 
@@ -98,7 +100,7 @@ try:
 
                 # Process and add this chunk's data to the map
                 process_ssh_chunk(ssh_chunk, lat_chunk, lon_chunk, map)
-
+                print(lon_chunk, lat_chunk)
                 print(f"Right: Processing chunk from line {start_line} to {end_line}")
 
 except Exception as e:

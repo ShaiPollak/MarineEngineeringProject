@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RunConfig_L2_LR_SSH.xsd"
+    version="1.0.0"
+    log="file"
+    log_level="info"
+    shortName="L2_LR_SSH_RCM"
+    pgeShortName="PGE_L2_LR_SSH"
+    pgeDockerImageName="pge/l2_lr_ssh"
+    pgeDockerImageVersion="5.0.2"
+    ProductCounter="01"
+    CRID="PGC0"
+    output_dir="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/l2_lr_ssh"
+    working_dir="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z/output/pge_work_dir"
+    ProductionDateTime="2024-02-06T21:51:04.345954Z"
+    ProcessingThreads="0"
+    Producer="JPL">
+  <granule>
+    <Pass>
+      <CycleID>001</CycleID>
+      <PassID>149</PassID>
+    </Pass>
+    <GranuleStartDateTime>2023-07-26T12:27:56.717000Z</GranuleStartDateTime>
+    <GranuleEndDateTime>2023-07-26T13:19:23.655000Z</GranuleEndDateTime>
+    <RangeBeginningDateTime>2023-07-26T12:27:56.753567Z</RangeBeginningDateTime>
+    <RangeEndingDateTime>2023-07-26T13:19:23.625231Z</RangeEndingDateTime>
+  </granule>
+
+   <input shortName="L2_LR_PreCalSSH">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01">SWOT_L2_LR_PreCalSSH_Basic_001_149_20230726T122755_20230726T131924_PGC0_01.nc</file>
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01">SWOT_L2_LR_PreCalSSH_Expert_001_149_20230726T122755_20230726T131924_PGC0_01.nc</file>
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01">SWOT_L2_LR_PreCalSSH_Unsmoothed_001_149_20230726T122756_20230726T131923_PGC0_01.nc</file>
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/L2_LR_PreCalSSH/2023/07/26/SWOT_L2_LR_PreCalSSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01">SWOT_L2_LR_PreCalSSH_WindWave_001_149_20230726T122755_20230726T131924_PGC0_01.nc</file>
+  </input>
+   <input shortName="INT_LR_XOverCal">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-ops-rs-sci/products/INT_LR_XOverCal/2023/07/25/SWOT_INT_LR_XOverCal_20230725T233604_20230726T233656_PGC0_01">SWOT_INT_LR_XOverCal_20230725T233604_20230726T233656_PGC0_01.nc</file>
+  </input>
+   <input shortName="GranulePolygons">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/Granule_Boundary">SWOT_GranulePolygons_Nom_20230921T225100_v06.json</file>
+  </input>
+   <input shortName="XDF_ORBIT_REV_FILE">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-ops-lts-sci/ancillary/XDF_ORBIT_REV_FILE/2023/07/20/SWOT_ORF_AXXCNE20231122_103800_20230720_200750_20231207_080254">SWOT_ORF_AXXCNE20231122_103800_20230720_200750_20231207_080254</file>
+  </input>
+   <input shortName="NC_Compression_L2_LR_SSH_Basic">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression">SWOT_NC_Compression_L2_LR_SSH_Basic_20210728T100000_v004.yaml</file>
+  </input>
+   <input shortName="NC_Compression_L2_LR_SSH_WindWave">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression">SWOT_NC_Compression_L2_LR_SSH_WindWave_20210728T100000_v004.yaml</file>
+  </input>
+   <input shortName="NC_Compression_L2_LR_SSH_Expert">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression">SWOT_NC_Compression_L2_LR_SSH_Expert_20210728T100000_v004.yaml</file>
+  </input>
+   <input shortName="NC_Compression_L2_LR_SSH_Unsmoothed">
+     <file path="/data/work/jobs/2024/02/06/21/44/SCIFLO_L2_LR_SSH__pcm-v5.0.1-pge-v5.1.1-L2_LR_SSH_001_149-state-config-20240206T213956.113081Z" s3="s3://s3-us-west-2.amazonaws.com:80/swot-static-repo/PGEStaticData/NC_Compression">SWOT_NC_Compression_L2_LR_SSH_Unsmoothed_20210728T100000_v004.yaml</file>
+  </input>
+</configuration>
